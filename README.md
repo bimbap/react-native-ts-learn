@@ -57,11 +57,9 @@ Follow these steps if you want to connect the application to a database.
 
 2. Create a new database table with the following instructions
 
-<br>
+   - Table Name : `notes`
 
-- Table Name : `notes`
-
-- Table Column :
+   - Table Column :
 
 | Columns Name  | Type          |
 | ------------- |:-------------:|
@@ -69,6 +67,7 @@ Follow these steps if you want to connect the application to a database.
 | created_at    | timestamptz   |
 | content       | text          |
 | updated_at    | timestamptz   | 
+
 
 > Don't forget to **turn off** the _Row Level Security (RLS)_ system, otherwise the system will block you because you haven't added the policy yet.
 
